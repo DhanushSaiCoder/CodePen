@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CodePen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <div class="header">
+            <img class="logo" src="logo.png" alt="logo.png">
+            <button class="sortButton"><img class="sortIcon" src="sort.png" alt="sort.png"></button>
+            <div class="searchDiv">
+                <div class="searchIconDiv">
+                    <img class="searchIconImage" src="search.png" alt="search.png">
+                </div>
+                <input placeholder="Search CodePen..." class="search" type="search">
+            </div>
+            <button id="signUpButton" class="sortButton">Sign Up</button>
+            <button id="logInButton" class="sortButton">Log in</button>
+        </div>
+        <div class="profileDiv">
+            <h2 style="font-size: 30px;" class="userName">Dhanush Sai</h2>
+            <h6 style="font-family: 'Poppins', sans-serif;" class="bio"></> Web Developer • India</h4>
+            <div class="userLinksDiv">
+                <a class="userLinks" href="#">www.youtube.com</a>
+                <a class="userLinks" href="#">www.twitter.com</a>
+            </div>
+            <div class="followersDiv">
+                <div><p><b>2.7M</b> <span  class="followersText">Followers </span> <b>42</b> <span class="followersText">Following </span> </p></div>
+                <button id="followButton">+ Follow</button>
+            </div>
+            
+        </div>
+        <div class="categoriesDiv">
+            <ul class="categoriesist">
+                <button id="recommended" class="categoriesText">Recommended</button>
+                <button class="categoriesText">Free</button>
+                <button class="categoriesText">Popular</button>
+                <button class="categoriesText">Forked</button>
+                <button class="categoriesText">Loved</button>
+                <button class="categoriesText">Free</button>
+                <button class="categoriesText">Paid</button>
+            </ul>
+        </div>
+        <div class="projectsDiv">
+            <h2 style="font-family: 'Poppins', sans-serif;" id="projects">Projects</h2>
+        </div>
+        <div class="cardsContainer">
+            <div class="cardOne">
+                <div id="cardOne" class="cardBgImage">
+                    
+                </div>
+                <div class="cardInfoBg">
+                    <div class="titleAndDots">
+                        <h3>A Classic Cricket Game</h3>
+                        <img style="width:35px; height:35px;" src="dots.png" alt="like.png">
+                    </div>
+                    <div class="likeAndComment">
+                        <button id="likeButton" style="color:white;" class="categoriesText"><img style="width:15px; height: 15px;" src="like.png" alt="like.png"> 33,432</button>
+                        
+                        <button id="commentButton" style="color:white;" class="categoriesText"> <img style="width:15px; height: 15px;" src="comment.png" alt="like.png"> 132</button>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="cardTwo">
+                <div id="twoImg" class="cardBgImage">
+                
+                </div>
+                <div class="cardInfoBg">
+                    <div class="titleAndDots">
+                        <h3>A Basic Tic Tac Toe Game</h3>
+                        <img style="width:35px; height:35px;" src="dots.png" alt="like.png">
+                    </div>
+                    <div class="likeAndComment">
+                        <button id="likeButton" style="color:white;" class="categoriesText"><img style="width:15px; height: 15px;" src="like.png" alt="like.png"> 21,322</button>
+                
+                        <button id="commentButton" style="color:white;" class="categoriesText"> <img style="width:15px; height: 15px;" src="comment.png" alt="like.png"> 94</button>
+                    </div>
+                
+                
+                </div>
+            </div>
+            <div class="cardThree">
+                <div id="cardThree" class="cardBgImage">
+            
+                </div>
+                <div class="cardInfoBg">
+                    <div class="titleAndDots">
+                        <h3>More Projects On Queue...</h3>
+                        <img style="width:35px; height:35px;" src="dots.png" alt="like.png">
+                    </div>
+                    <div class="likeAndComment">
+                        <button id="likeButton" style="color:white;" class="categoriesText"><img style="width:15px; height: 15px;" src="like.png" alt="like.png">231</button>
+            
+                        <button id="commentButton" style="color:white;" class="categoriesText"> <img style="width:15px; height: 15px;" src="comment.png" alt="like.png"> 45</button>
+                    </div>
+            
+            
+                </div>
+            </div>
+            <div class="footerGradient">
+                
+            </div>
+            <div class="footer">
+                <div id="texts">
+                    <div id="aboutDiv">
+                        <h4>About Me</h2>
+                            <ul>
+                                <li>Born 17yrs ago</li>
+                                <li>Developer</li>
+                                <li>Absolute Learner</li>
+                    
+                    
+                            </ul>
+                    </div>
+                    <div id="contactDiv">
+                        <h4>Contact Me</h2>
+                            <ul>
+                                <li>dhanushsai1467@gmail.com</li>
+                                <li><a href="#">Youtube</a></li>
+                                <li><a href="#">Instagram</a></li>
+                    
+                    
+                            </ul>
+                    </div>
+                </div>
+                <p><i id="rights">©dhanush</i></p>
+            </div>
+            
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

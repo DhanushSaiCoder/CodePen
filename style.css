@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    margin:0;
+    background-color: black;
+    width:100vw;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+}
+.content{
+    height: 100%;
+    width: 100%;
+}
+.logo{
+    width:30px;
+    height:30px;
+}
+.header{
+    background-color: #131418;
+    width:100%;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+/*787B80*/
+.sortButton{
+    width: 30px;
+    height:30px;
+    background-color:#787B80;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sortButton:hover{
+
+    cursor: pointer;
+}
+.searchIconDiv{
+    background-color:#252831;
+    width:30px;
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 0 0 5px ;
+    
+}
+.searchIconImage{
+    width: 25px;
+    height: 25px;
+}
+.search{
+    background-color:#252831;
+    color:#787B80;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 15px;
+    padding-left: 7px;
+    font-family: 'Poppins', sans-serif;
+}
+.searchDiv{
+    height: 30px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+#signUpButton{
+    width:13%;
+    background-color: #46CF73;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: #000;
+}
+#logInButton{
+    background-color: #454857;
+    width: 10%;
+    color: #C9C9C9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    
+}
+.sortIcon{
+    width:100%;
+    height:100%;
+    
+}
+.profileDiv{
+    padding-top: 40px;
+    width: 99%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.userLinks{
+    font-size: 15px;
+    text-decoration: none;
+    color:#787B80;
+    
+}
+.userLinks:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.userLinksDiv{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    border-bottom: 2px solid #787B80;
+}
+.followersDiv p{
+    font-size: 20px;
+    color:#fff;
+    
+}
+.followersDiv span{
+    font-size: 15px;
+    color:#787B80;
+}
+.followersDiv{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#followButton{
+    width:100px;
+    height: 35px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #46CF73;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size: 15px;
+    margin: 20px 20px;
+    font-weight: bold;
+    
+}
+.categoriesList{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    display: flex;
+}
+.categoriesDiv{
+    height: 50px;
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: auto;
+    white-space: nowrap;
+    padding-left: 0;
+    
+}
+.categoriesText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 5px 10px;
+    width: auto;
+    background-color:#252831;
+    color:#787B80;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 2px;
+    cursor: pointer;
+}
+.categoriesList:hover{cursor:pointer;}
+#recommended{
+    margin-left: 130px;
+    background-color: floralwhite;
+    color:black;
+    
+}
+
+.bio{
+    font-size: 13px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+.profileDiv{background: url('profileBg.jpg');background-size: cover}
+.cardsContainer{
+    width:100vw;
+    height:150vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding:10px;
+}
+.cardOne,.cardTwo,.cardThree{
+    width:98%;
+    height:320px;
+    border-radius: 10px;
+    margin-bottom: 20px
+    
+}
+
+.cardBgImage{
+    width:100%;
+    height: 70%;
+    background: url('cricket.jpg');
+    background-size: cover;
+     border-radius:10px 10px 0  0;
+    
+}
+.cardInfoBg{
+    padding-bottom: 10px;
+    background-color: #131418;
+     width:100%;
+     height: 30%;
+     border-radius: 0 0 10px 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+}
+#likeButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    height:35px;
+    font-size:10px;
+}
+#commentButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    height: 35px;
+    font-size:10px;
+    
+}
+.titleAndDots,.likeAndComment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:90%;
+    height:45%;
+}
+.likeAndComment{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width:90%;
+    height:45%;
+}
+.projectsDiv{
+    width:100vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 13px;
+}
+#twoImg{
+    background:url('ticTacToe.jpg');
+    background-size: cover; 
+}
+#cardOne{
+    background:url('ipl.jpg');
+    background-size: cover; 
+}
+.footer,#texts{
+    width:100vw;
+    height: 200px;
+    
+    background-color:#131418;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    font-size: 10px;
+}
+#texts{
+    width:100%;
+    height:60%;
+}
+#footer{
+    bottom: 0;
+}
+#aboutDiv h4 ,#contactDiv h4{
+    font-size: 20px;
+    text-align: center;
+    color: #46CF73;
+}
+#aboutDiv ul,#contactDiv ul{
+    list-style: none;
+    text-align: center;
+}
+#aboutDiv ul li,#contactDiv ul li,#contactDiv ul li a{
+    color:#787B80;
+    
+}
+#cardThree{
+       background:url('soon.jpg');
+       background-size: contain;
+}
+.footerGradient{
+    width:100vw;
+    height:50px;
+    background:url('gradient.png');
+    background-size: contain ;
+}
+#rights{
+    color:#46CF73;
+}
